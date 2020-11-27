@@ -3,8 +3,8 @@
 This is just a packager for [falconpy](https://github.com/CrowdStrike/falconpy) so it can be on PyPI to ease usage in python tools.
 
 ## API Information
-[Main README](src/falconpy/README.md)
-[Services README](src/falconpy/services/README.md)
+[Main README](https://github.com/CrowdStrike/falconpy/blob/main/README.md)
+[Services README](https://github.com/CrowdStrike/falconpy/blob/main/services/README.MD)
 
 ## Updating on PyPI
 Falconpy as added as a git submodule. For updates to this package, it will have to be updated first via the submodule. as below.
