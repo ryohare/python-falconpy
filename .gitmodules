@@ -1,0 +1,3 @@
+[submodule "src/falconpy"]
+	path = src/falconpy
+	url = https://github.com/CrowdStrike/falconpy
