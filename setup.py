@@ -25,7 +25,7 @@ def read(*names, **kwargs):
 
 setup(
     name='falconpy',
-    version='0.0.0',
+    version='1.0.0',
     license='BSD-2-Clause',
     description='Crowdstrike Falcon API',
     long_description='%s\n%s' % (

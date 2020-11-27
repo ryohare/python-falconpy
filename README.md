@@ -22,6 +22,14 @@ It can then be released to PyPI with twine
 tox
 tox -e check
 
+# set the current version in src/falconpy/__init__ for bump version
+VER=`cat setup.py | grep version=\' | cut -d \' -f 2`
+echo "__VERSION__ = '$VER'" > src/falconpy/__init__.py
+
+# bump the version based. Not really managed by CS, so IDK, do patches?
+# Allow ditry needed because we dirty up CS's falconpy with a version
+bumpversion minor --allow-dirty
+
 # create package
 python setup.py clean --all sdist --formats=gztar,zip bdist_wheel
 
