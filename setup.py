@@ -73,7 +73,7 @@ setup(
     ],
     python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*',
     install_requires=[
-        'certifi==2020.11.8', 'chardet==3.0.4', 'idna==2.10', 'requests==2.25.0', 'urllib3==1.26.2'
+        'certifi==2020.11.8', 'chardet==3.0.4', 'idna==2.10', 'requests==2.25.0', 'urllib3==1.26.4'
     ],
     extras_require={
         # eg:
